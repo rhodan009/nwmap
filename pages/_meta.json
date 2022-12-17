@@ -1,3 +1,8 @@
 {
-  "index": "Introduction"
+  "index": "Introduction",
+  "us-east": "US East",
+  "us-west": "US West",
+  "eu-central": "EU Central",
+  "sa-east": "SA East",
+  "ap-southeast": "AP Southeast"
 }
