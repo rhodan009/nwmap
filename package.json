@@ -19,6 +19,7 @@
   "homepage": "https://github.com/lmachens/nwmap#readme",
   "dependencies": {
     "@tanstack/react-query": "4.20.4",
+    "@widgetbot/react-embed": "1.6.1",
     "next": "13.0.6",
     "nextra": "2.0.1",
     "nextra-theme-docs": "2.0.1",
