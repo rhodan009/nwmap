@@ -4,14 +4,6 @@ import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  head: () => {
-    const { title } = useConfig();
-    return (
-      <>
-        <title>{title} - nwmap</title>
-      </>
-    );
-  },
   logo: <span>nwmap</span>,
   project: {
     link: "https://github.com/lmachens/nwmap",
@@ -22,6 +14,16 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: "https://github.com/lmachens/nwmap/tree/main",
   footer: {
     text: "nwmap.info",
+  },
+  useNextSeoProps: () => {
+    const { frontMatter } = useConfig();
+
+    return {
+      titleTemplate: "%s – nwmap",
+      description:
+        frontMatter.description ||
+        "A New World Faction Territory Map Project that helps to bring a visual understanding of each server.",
+    };
   },
 };
 
