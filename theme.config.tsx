@@ -19,7 +19,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.gg/MRMTwtB3Th",
   },
-  docsRepositoryBase: "https://github.com/lmachens/nwmap",
+  docsRepositoryBase: "https://github.com/lmachens/nwmap/tree/main",
   footer: {
     text: "nwmap.info",
   },
