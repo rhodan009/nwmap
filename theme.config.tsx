@@ -36,10 +36,10 @@ const config: DocsThemeConfig = {
     link: "https://discord.gg/MRMTwtB3Th",
   },
   docsRepositoryBase: "https://github.com/lmachens/nwmap/tree/main",
-  footer: {
-    text: "nwmap.info",
-  },
   head: <></>,
+  footer: {
+    component: <></>,
+  },
   useNextSeoProps: () => {
     return {
       titleTemplate: "%s – nwmap",
