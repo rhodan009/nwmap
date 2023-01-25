@@ -3,7 +3,32 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 import Logo from "./public/logo.webp";
 
 const config: DocsThemeConfig = {
-  logo: <Image src={Logo} alt="nwmap" height={40} />,
+  darkMode: false,
+  nextThemes: {
+    forcedTheme: "dark",
+  },
+  logo: (
+    <>
+      <Image src={Logo} alt="nwmap" height={40} />
+      <style jsx>{`
+        img {
+          padding: 0.5rem 0.5rem 0.5rem 0;
+          mask-image: linear-gradient(
+            60deg,
+            black 25%,
+            rgba(0, 0, 0, 0.2) 50%,
+            black 75%
+          );
+          mask-size: 400%;
+          mask-position: 0%;
+        }
+        img:hover {
+          mask-position: 100%;
+          transition: mask-position 1s ease, -webkit-mask-position 1s ease;
+        }
+      `}</style>
+    </>
+  ),
   project: {
     link: "https://github.com/lmachens/nwmap",
   },
