@@ -4,5 +4,34 @@
   "us-west": "US West",
   "eu-central": "EU Central",
   "sa-east": "SA East",
-  "ap-southeast": "AP Southeast"
+  "ap-southeast": "AP Southeast",
+  "---": {
+    "type": "separator",
+    "title": "Other Projects"
+  },
+  "aeternum_map": {
+    "title": "Aeternum Map",
+    "href": "https://aeternum-map.gg/",
+    "newWindow": true
+  },
+  "hogwarts": {
+    "title": "Hogwarts.gg",
+    "href": "https://www.hogwarts.gg",
+    "newWindow": true
+  },
+  "arkesia": {
+    "title": "Arkesia.gg",
+    "href": "https://www.arkesia.gg",
+    "newWindow": true
+  },
+  "soc": {
+    "title": "SoC.gg",
+    "href": "https://www.soc.gg",
+    "newWindow": true
+  },
+  "skeleton": {
+    "title": "Skeleton",
+    "href": "https://github.com/lmachens/skeleton",
+    "newWindow": true
+  }
 }
