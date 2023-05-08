@@ -1,6 +1,7 @@
-# nwmap Website
+# Influence Updates for New World
 
-This is the code for [nwmap](https://nwmap.info/).
+This is the web version of the Influence Update Project for New World: https://influence.th.gl/
+It's connected to the [Aeternum Map](https://aeternum-map.gg) and part of part of [The Hidden Gaming Lair](https://www.th.gl/).
 
 ## Local Development
 

@@ -15,7 +15,7 @@ const Updates = ({
     <>
       <div style={{ height: 400, width: "100%" }}>
         <WidgetBot
-          server="1015696487113555998"
+          server="320539672663031818"
           channel={channel}
           height="100%"
           width="100%"
