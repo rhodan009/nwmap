@@ -42,9 +42,9 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps: () => {
     return {
-      titleTemplate: "%s – nwmap",
+      titleTemplate: "%s – Influence Updates",
       description:
-        "A New World Faction Territory Map Project that helps to bring a visual understanding of each server.",
+        "A New World Discord community that helps to bring a visual understanding of each server's influence.",
       additionalLinkTags: [
         {
           rel: "icon",
